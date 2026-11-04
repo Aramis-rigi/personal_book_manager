@@ -7,7 +7,7 @@ load_dotenv()
 name = input("What's your name? ")
 print("Welcome", name)
 
-admin_mode = input("do you want to enter admin mode? yes/no")
+admin_mode = input("do you want to enter admin mode? yes/no ")
 if admin_mode == "yes":
     admin_password = input("enter admin password: ")
     if admin_password== os.getenv("BOOK_MANAGER_ADMIN_PASSWORD"):
