@@ -8,6 +8,13 @@ A simple book manager built with python
 - Show books
 - Save books
 - Admin mode
+- set book priority
+
+## Book Priority
+each book can have one of these priority levels:
+- low
+- medium
+- high
 
 ## Requirements
 - python
@@ -53,13 +60,14 @@ personal_book_manager/
 ```
 
 ## Screenshot
-![Screenshot](Images\ScreenShot1.png)
+![Screenshot](Images\Screenshot.png)
 
 ## How it Works
 
 - Get user's name
 - Admin mode
 - Add new books 
+- Add priority
 - show books
 
 ## Troubleshooting
