@@ -23,6 +23,7 @@ for i in range(number):
     book = input("Enter the name of the book: ")
     priority = input("Enter the priority (high, medium, low): ")
     book = {
+        "number of book" : number,
         "name" : book,
         "priority" : priority
     }
