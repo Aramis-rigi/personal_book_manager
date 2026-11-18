@@ -28,6 +28,8 @@ for i in range(number):
         "name" : book,
         "priority" : priority
     }
+    
+    print(book["name"],"added successfully")
     books.append(book)
 
 
