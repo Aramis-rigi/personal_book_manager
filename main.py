@@ -8,7 +8,7 @@ name = input("What's your name? ")
 
 print("hello, Welcome", name)
 
-admin_mode = input("do you know the admin mode code for our programe? yes/no ")
+admin_mode = input(f"{name} do you know the admin mode code for our programe? yes/no ")
 if admin_mode == "yes":
     admin_password = input("enter admin password: ")
     if admin_password== os.getenv("BOOK_MANAGER_ADMIN_PASSWORD"):
